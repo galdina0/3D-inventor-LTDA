@@ -2,7 +2,7 @@
 # 3D-inventor-LTDA
 Este repositório contém o código fonte e os arquivos de suporte para a Empresa de Designer 3D, uma empresa especializada em design 3D.
 ## Visão Geral
-A Empresa de Designer 3D oferece serviços de design 3D para clientes em uma ampla variedade de setores, incluindo arquitetura, engenharia, jogos e publicidade. Nossos serviços incluem modelagem 3D, renderização, animação, visualização arquitetônica e muito mais.
+A Empresa 3D invertor LTDA oferece serviços de design 3D para clientes em uma ampla variedade de setores, incluindo arquitetura, engenharia, jogos e publicidade. Nossos serviços incluem modelagem 3D, renderização, animação, visualização arquitetônica e muito mais.
 
 Este repositório contém os arquivos de código fonte para nossos softwares de design 3D, bem como os arquivos de suporte para nossos projetos de clientes.
 
@@ -18,7 +18,7 @@ Para instalar nossos softwares de design 3D, siga as etapas abaixo:
 ## Uso
 Para usar nossos softwares de design 3D, siga as etapas abaixo:
 
-+ Abra o aplicativo de design 3D.
++ Abra o aplicativo 3D Inventor.
 + Comece a criar seu design 3D usando as ferramentas de modelagem, renderização, animação e visualização arquitetônica.
 + Salve seu design e exporte-o em um formato compatível para uso em outros aplicativos.
 ## Contribuindo
@@ -31,7 +31,7 @@ Aceitamos contribuições de todos os níveis de habilidade e experiência. Se v
 ## Suporte
 Se você precisar de ajuda para usar nossos softwares de design 3D, ou se tiver alguma dúvida ou problema, entre em contato conosco através do email 
 
-contato@empresadedesigner3d.com.br.
+contato@empresa3Dinventor.com.br.
 
 ## Licença
 Este repositório é licenciado sob a Licença MIT. Consulte o arquivo LICENSE.md para obter mais informações.
