@@ -1,0 +1,43 @@
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.canvas.Canvas;
+import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.paint.Color;
+import javafx.stage.Stage;
+
+public class DesignerApp extends Application {
+    private Canvas canvas;
+    private GraphicsContext gc;
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        BorderPane root = new BorderPane();
+        canvas = new Canvas(800, 600);
+        gc = canvas.getGraphicsContext2D();
+        root.setCenter(canvas);
+        primaryStage.setScene(new Scene(root, 800, 600));
+        primaryStage.show();
+
+        canvas.setOnMousePressed(e -> {
+            gc.beginPath();
+            gc.moveTo(e.getX(), e.getY());
+            gc.stroke();
+        });
+
+        canvas.setOnMouseDragged(e -> {
+            gc.lineTo(e.getX(), e.getY());
+            gc.stroke();
+        });
+
+        gc.setFill(Color.BLUE);
+        gc.fillRect(100, 100, 50, 50);
+        gc.setStroke(Color.RED);
+        gc.strokeLine(200, 200, 300, 300);
+        gc.fillText("Hello, world!", 400, 400);
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
